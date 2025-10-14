@@ -6,9 +6,9 @@ public class Ch21_to_24_Primitive_Types {
 		
 		byte b = 111; short s = 222; int i = 123123123;
 		
-		long lo = (long)(50000L+10L*(b+s+i)); 
+		long loo = (long)(50000L+10L*(b+s+i)); 
 				
-		System.out.println("Valoarea variabilei long are valoarea: " + lo);
+		System.out.println("Valoarea variabilei long are valoarea: " + loo);
 		
 		int wq=123123123;
 		byte bq = (byte)wq;
