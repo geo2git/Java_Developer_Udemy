@@ -1,7 +1,7 @@
 package Section_06;
 import java.util.*;
 
-public class Ch75_Scanner_Challenge {
+public class Ch_75_Scanner_Challenge {
 
 	public static void main(String[] args) {
 		
