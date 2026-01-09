@@ -1,6 +1,6 @@
 package Section_06;
 
-public class Ch_62_Looping {
+public class Ch62_Looping {
 	
 	public static void main(String[] args) {
 		

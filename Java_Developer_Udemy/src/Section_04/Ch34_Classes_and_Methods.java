@@ -1,6 +1,6 @@
 package Section_04;
 
-public class Ch_34_Classes_and_Methods {
+public class Ch34_Classes_and_Methods {
 
 	public static void main(String[] args) {
 		

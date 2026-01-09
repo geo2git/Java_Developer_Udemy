@@ -1,6 +1,6 @@
 package Section_06;
 
-public class Ch_72_Parsing {
+public class Ch72_Parsing {
 
 	public static void main(String[] args) {
 		

@@ -1,6 +1,6 @@
 package Section_06;
 
-public class Ch_65_While_Loop {
+public class Ch65_While_Loop {
 
 	public static void main(String[] args) {
 

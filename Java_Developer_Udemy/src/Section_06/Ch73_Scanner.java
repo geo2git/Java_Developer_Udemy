@@ -1,7 +1,7 @@
 package Section_06;
 import java.util.*;
 
-public class Ch_73_Scanner {
+public class Ch73_Scanner {
 
 	public static void main(String[] args) {
 		

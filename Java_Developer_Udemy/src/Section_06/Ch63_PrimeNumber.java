@@ -1,6 +1,6 @@
 package Section_06;
 
-public class Ch_63_PrimeNumber {
+public class Ch63_PrimeNumber {
 
 	public static void main(String[] args) {
 		

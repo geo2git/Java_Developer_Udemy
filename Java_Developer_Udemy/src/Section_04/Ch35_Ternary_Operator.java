@@ -1,6 +1,6 @@
 package Section_04;
 
-public class Ch_35_Ternary_Operator {
+public class Ch35_Ternary_Operator {
 
 	public static void main(String[] args) {
 			

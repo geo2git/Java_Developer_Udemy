@@ -1,6 +1,6 @@
 package Section_06;
 
-public class Ch_64_Sum_Challenge {
+public class Ch64_Sum_Challenge {
 
 	 public static void main(String[] args) {
 		
