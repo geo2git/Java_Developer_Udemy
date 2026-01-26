@@ -8,6 +8,26 @@ public class Ch82_Account {
 	private String customerEmail;
 	private String customerPhone;
 	
+	public Ch82_Account() {
+		System.out.println("Constructorul gol a fost apelat !");
+	}
+
+	public Ch82_Account(String accountNo, double accountBalance, String customerName, String customerEmail, String customerPhone) {
+		System.out.println("Constructorul cu parametrii a fost apelat !");
+		this.accountBalance=accountBalance;
+		this.accountNo=accountNo;
+		this.customerName=customerName;
+		this.customerEmail=customerEmail;
+		this.customerPhone=customerPhone;
+	}
+	
+	public Ch82_Account( String customerName, String customerEmail, String customerPhone) {
+		this("geo20", 2000, customerName, customerEmail, customerPhone);
+		System.out.println("Constructorul 2 cu parametrii a fost apelat !");
+		
+	}
+	
+	
 	public void depositFunds(double sumaDepozitata) {
 		accountBalance += sumaDepozitata;
 		System.out.println("Depoziteaza suma de: " + sumaDepozitata + " iar noua balanta este: " + accountBalance);
@@ -52,6 +72,5 @@ public class Ch82_Account {
 	public void setCustomerPhone(String customerPhone) {
 		this.customerPhone = customerPhone;
 	}
-	
 	
 }
