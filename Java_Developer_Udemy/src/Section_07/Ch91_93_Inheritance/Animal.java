@@ -13,10 +13,13 @@ public class Animal {
 		this.greutate=greutate;
 	}
 
+	public Animal() {
+		
+	}
+	
 	@Override
 	public String toString() {
-		return "Animal [tip=" + tip + ", marime=" + marime + ", greutate="
-				+ greutate + "]";
+		return "Animal [tip=" + tip + ", marime=" + marime + ", greutate=" + greutate + "]";
 	}
 	
 	public void seMisca(String viteza) {
