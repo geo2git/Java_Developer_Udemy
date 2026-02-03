@@ -1,4 +1,4 @@
-package Section_07.Ch97_102_Diverse;
+package Section_07.Ch97_102_String;
 
 public class FormaGeometrica {
 

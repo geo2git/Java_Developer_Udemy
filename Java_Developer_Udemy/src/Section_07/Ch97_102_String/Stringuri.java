@@ -1,4 +1,4 @@
-package Section_07.Ch97_102_Diverse;	
+package Section_07.Ch97_102_String;	
 import java.util.*;
 
 public class Stringuri {
@@ -19,7 +19,7 @@ public class Stringuri {
 		
 		System.out.printf("Data de astazi este: ziua=%td luna= %tm anul= %ty \n",data, data, data);
 		
-		String s1 = "George se va duce pana in piata de alaturi !";
+		String s1 = "George se va duce pana in Italia la Lignano !";
 		
 		int lung = s1.length();
 		System.out.printf("Lungimea sirului s1 este %d iar primul caracter este= %c \n", lung,s1.charAt(0));
@@ -27,5 +27,11 @@ public class Stringuri {
 		String s2 = "  ";
 		System.out.println("S2 este empty ? " + s2.isEmpty());
 		System.out.println("Se este blank ?" + s2.isBlank());
+		
+		String s3 = "Italia";
+		if(s1.contains(s3)) {
+			System.out.println("Sirul s1 contine caracterele Italia");
+		}
+		
 	}
 }

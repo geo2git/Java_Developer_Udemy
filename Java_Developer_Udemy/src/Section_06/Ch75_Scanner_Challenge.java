@@ -15,8 +15,6 @@ Scanner sc = new Scanner(System.in);
 	
 	public static int getNrIntroduse(int nr1, int nr2, int nr3, int nr4, int nr5) {
 		
-		Scanner sc1 = new Scanner(System.in);
-		
-		System.out.println("Introduceti primul nr: ");
+		return nr1;
 	}
 }
